@@ -25,6 +25,12 @@
             android:text="EffectTest"
             android:textAllCaps="false" />
 
+        <Button
+            android:id="@+id/mask_filter_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MaskFilterTest"
+            android:textAllCaps="false" />
     </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>

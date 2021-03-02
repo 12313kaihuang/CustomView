@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.painttest.databinding.ActivityMainBinding
+import com.example.painttest.maskfilter.MaskFilterTestActivity
 import com.example.painttest.patheffect.EffectTestActivity
 import com.example.painttest.shader.ShaderTestActivity
 
@@ -22,6 +23,7 @@ class MainActivity : AppCompatActivity() {
             goToPage(ShaderTestActivity::class.java)
         }
         mViewBinding.effectBtn.setOnClickListener { goToPage(EffectTestActivity::class.java) }
+        mViewBinding.maskFilterBtn.setOnClickListener { goToPage(MaskFilterTestActivity::class.java) }
     }
 
     private fun <T> goToPage(clz: Class<T>) {

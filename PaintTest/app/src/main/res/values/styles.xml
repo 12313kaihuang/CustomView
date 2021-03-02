@@ -3,4 +3,8 @@
     <declare-styleable name="CanvasView">
         <attr name="cv_type" format="integer" />
     </declare-styleable>
+
+    <declare-styleable name="MaskFilterView">
+        <attr name="type" format="integer" />
+    </declare-styleable>
 </resources>
