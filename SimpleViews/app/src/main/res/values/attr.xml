@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressButton">
+        <attr name="pb_cornerRadius" format="dimension" />
+        <attr name="pb_textColor" format="color" />
+        <attr name="pb_textSize" format="dimension" />
+        <attr name="pb_backgroundColor" format="color" />
+        <attr name="pb_progressTextColor" format="color" />
+        <attr name="pb_progressColor" format="color" />
+        <attr name="pb_progressBackgroundColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="expandableText" format="string" />
+        <attr name="expandedSuffix" format="string" />
+        <attr name="foldedSuffix" format="string" />
+        <attr name="foldLines" format="integer" />
+        <attr name="suffixTextColor" format="color" />
+        <attr name="expandDuration" format="integer" />
+    </declare-styleable>
+</resources>
